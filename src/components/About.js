@@ -12,7 +12,7 @@ export default class About extends Component {
             <div>
                 <Row>
                     <Col sm="12" md={{ size: 8, offset: 2 }}>
-                        <div className="about-us text-justify pt-5">
+                        <div className="about-us text-justify p-5">
                             <h2 className='text-center'>O nama</h2>
                             <p> Proizvodno preduzeće Nikker posluje od 2010. godine i za kratko vreme, vrhunskom
                                 tehnologijoom i kvalitetom proizvoda dobili smo najbolji odnos cene i kvaliteta i svrstali

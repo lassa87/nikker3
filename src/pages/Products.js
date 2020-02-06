@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
 import Product from '../components/Product'
@@ -10,19 +10,21 @@ export default class Products extends Component {
             <div>
                 <Navigation />
                 <h1>stranica proizvoda</h1>
-                <div>
-                    <ProductConsumer>
-                        {value => {
-                            return value.products.map(
-                                product => {
-                                    return <Product key={product.id} product={product} />;
-                                }
-                            )
-                        }
+                <Container>
+                    <Row>
+                        <ProductConsumer>
+                            {value => {
+                                return value.products.map(
+                                    product => {
+                                        return <Product key={product.id} product={product} />;
+                                    }
+                                )
+                            }
 
-                        }
-                    </ProductConsumer>
-                </div>
+                            }
+                        </ProductConsumer>
+                    </Row>
+                </Container>
             </div>
         )
     }
