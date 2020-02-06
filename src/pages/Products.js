@@ -1,13 +1,28 @@
 import React, { Component } from 'react'
-import ProductCard from '../components/ProductCard'
+import { Row, Col } from 'reactstrap'
 import Navigation from '../components/Navigation'
+import { ProductConsumer } from '../components/ProductProvider'
+import Product from '../components/Product'
+
 export default class Products extends Component {
     render() {
         return (
             <div>
                 <Navigation />
-                <h1>HELLO PROIZVODI</h1>
-                <ProductCard />
+                <h1>stranica proizvoda</h1>
+                <div>
+                    <ProductConsumer>
+                        {value => {
+                            return value.products.map(
+                                product => {
+                                    return <Product key={product.id} product={product} />;
+                                }
+                            )
+                        }
+
+                        }
+                    </ProductConsumer>
+                </div>
             </div>
         )
     }

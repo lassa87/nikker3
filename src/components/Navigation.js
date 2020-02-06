@@ -1,10 +1,11 @@
 import React from 'react';
-import { Nav, NavItem, NavLink, Row, Col } from 'reactstrap'
+import { Nav, NavItem, Row, Col } from 'reactstrap'
 import Logo from '../resources-nikker/logo-bez-pozadine.png'
 import { Link } from 'react-router-dom'
 const linkColor = {
     color: ' #221d5d',
     fontFamily: 'Impact',
+    marginLeft: '1.5rem',
 }
 const Navigation = (props) => {
     return (
@@ -19,17 +20,17 @@ const Navigation = (props) => {
                     <Nav className="justify-content-center pt-3">
                         <Link to="/">
                             <NavItem>
-                                <NavLink style={linkColor}>Početna</NavLink>
+                                <span style={linkColor}>Početna</span>
                             </NavItem>
                         </Link>
                         <Link to="/Products">
                             <NavItem>
-                                <NavLink style={linkColor}>Proizvodi</NavLink>
+                                <span style={linkColor}>Proizvodi</span>
                             </NavItem>
                         </Link>
                         <Link to="/Contact">
                             <NavItem>
-                                <NavLink style={linkColor}>Kontakt</NavLink>
+                                <span style={linkColor}>Kontakt</span>
                             </NavItem>
                         </Link>
                     </Nav>

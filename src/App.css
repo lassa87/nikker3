@@ -19,6 +19,16 @@
   background-color: rgba(255,255,255,0.4);
   padding: 1rem;
 }
+/* hero contact image */
+.hero-contact {
+  /* The hero image */
+    background-image: url("./resources-nikker/hero-contact.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 /* end HERO */
 /* ABOUT */
 .about-us {
