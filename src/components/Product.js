@@ -7,7 +7,7 @@ export default class Product extends Component {
     render() {
         const { id, name, img, about, group } = this.props.product;
         return (
-            <Col sm='12' md='6' lg='6'>
+            <Col sm='12' md='6' lg='6' className='productContainer'>
                 <div ClassName='p-5 mt-5'>
                     <Row>
                         <Col xs='4'>

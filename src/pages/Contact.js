@@ -11,11 +11,11 @@ export default class Contact extends Component {
                 <Navigation />
                 <div className="hero-text">
                     <h1>Kontaktirajte nas</h1>
-                    <h4> <FaPhoneSquare /> telefon <br />
-                        <MdLocationOn /> adresa <br />
+                    <h4><MdLocationOn /> Dimitrovgradska 2, 18110 Niš <br />
+                        <FaPhoneSquare /> +381 18 540 266 <br />
                         <MdEmail /> mail<br />
                         <a style={{ textDecoration: 'none', color: '#221d5d' }} href='https://www.facebook.com/nikker.kupatila.5'><FaFacebookSquare /> Facebook</a> <br />
-                        <a style={{ textDecoration: 'none', color: '#221d5d' }} href='https://www.facebook.com/nikker.kupatila.5'><AiFillInstagram /> Instagram</a></h4>
+                        <a style={{ textDecoration: 'none', color: '#221d5d' }} href='#'><AiFillInstagram /> Instagram</a></h4>
 
 
                 </div>
