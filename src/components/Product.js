@@ -14,7 +14,7 @@ export default class Product extends Component {
                             <img src={img} width='100%' />
                         </Col>
                         <Col xs='8'>
-                            <h4>{name}</h4>
+                            <h4 className='productTitle'>{name}</h4>
                             <p>Opis proizvoda: {about}</p>
                         </Col>
                     </Row>

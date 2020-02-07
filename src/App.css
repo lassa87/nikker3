@@ -49,6 +49,8 @@
   transition: 1s ;
   background-color: rgba(51, 6, 122, 0.1);
   cursor: pointer;
-  
+}
+.productTitle {
+  text-transform: uppercase;
 }
 /* END PRODUCTS PAGE  */

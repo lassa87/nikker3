@@ -15,7 +15,7 @@ export default class Contact extends Component {
                         <FaPhoneSquare /> +381 18 540 266 <br />
                         <MdEmail /> mail<br />
                         <a style={{ textDecoration: 'none', color: '#221d5d' }} href='https://www.facebook.com/nikker.kupatila.5'><FaFacebookSquare /> Facebook</a> <br />
-                        <a style={{ textDecoration: 'none', color: '#221d5d' }} href='#'><AiFillInstagram /> Instagram</a></h4>
+                        <a style={{ textDecoration: 'none', color: '#221d5d' }} href='https://instagram.com/nikker_kupatila?igshid=18ioo3voav209'><AiFillInstagram /> Instagram</a></h4>
 
 
                 </div>
