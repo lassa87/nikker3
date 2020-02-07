@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row } from 'reactstrap'
 import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
 import Product from '../components/Product'
