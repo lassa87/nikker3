@@ -32,7 +32,7 @@ export const storeProducts = [
   {
     id: 5,
     name: "konzolni ormarići",
-    img: "./slike proizvoda 200x100/5.png",
+    img: "./slike proizvoda 200x100/5.jpg",
     about: "GOOGLE",
     group: "Lorem "
   },
@@ -46,7 +46,7 @@ export const storeProducts = [
   {
     id: 7,
     name: "serija tulip",
-    img: "./slike proizvoda 200x100/7.png",
+    img: "./slike proizvoda 200x100/7.jpg",
     about: "GOOGLE",
     group: "Lorem "
   },

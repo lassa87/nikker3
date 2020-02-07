@@ -9,7 +9,6 @@ export default class Products extends Component {
         return (
             <div>
                 <Navigation />
-                <h1>stranica proizvoda</h1>
                 <Container>
                     <Row>
                         <ProductConsumer>
