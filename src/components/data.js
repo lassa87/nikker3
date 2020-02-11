@@ -26,7 +26,6 @@ export const storeProducts = [
     id: 4,
     name: "Serija Leon",
     img: "./images/4.jpg",
-    imgdet: "./images/41.jpg",
     about: "Proizvod je izrađen od medijapana i univera, bojen poliuretanskim bojama.",
     group: "Lorem "
   },
@@ -73,3 +72,13 @@ export const storeProducts = [
     group: "Lorem "
   }
 ]
+
+export const detailProduct = {
+  id: 111,
+  name: "detaljji",
+  img: "./images/10.jpg",
+  about: "Proizvod je izrađen od medijapana i univera, bojen poliuretanskim bojama.",
+  group: "Lorem "
+};
+
+// id, name,img,about,group,inCart,count,total

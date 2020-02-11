@@ -1,16 +1,28 @@
 import React, { Component } from 'react'
-import { storeProducts } from './data'
+import { storeProducts, detailProduct } from './data'
 
 const ProductContext = React.createContext();
 // Provider
 // consumer
 
 class ProductProvider extends Component {
-    state = { products: storeProducts };
+    state = {
+        products: storeProducts,
+        detailProduct: detailProduct
+    };
+    getItem = id => {
+        const product = this.state.products.find(item => item.id === id);
+        return product;
+    };
+    handleDetail = (id) => {
+        const product = this.getItem(id);
+        this.setState(() => { return { detailProduct: product } })
+    }
     render() {
         return (
             <ProductContext.Provider value={{
                 ...this.state,
+                handleDetail: this.handleDetail
             }}
             >
                 {this.props.children}
