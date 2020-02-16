@@ -41,6 +41,13 @@ export default class productDetail extends Component {
                             header: '',
                             key: '4'
                         },
+                        {
+                            src: img6,
+                            altText: 'Slide 5',
+                            caption: '',
+                            header: '',
+                            key: '5'
+                        },
                     ];
 
                     const Slider = () => <UncontrolledCarousel items={items} />;
@@ -64,34 +71,34 @@ export default class productDetail extends Component {
 
                                         </Row>
                                         <Row>
-                                            <Col xs='3' onClick={() => { window.open(img2) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img2) }} className='cpoint pt-2'>
                                                 <img src={img2} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img3) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img3) }} className='cpoint pt-2'>
                                                 <img src={img3} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img4) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img4) }} className='cpoint pt-2'>
                                                 <img src={img4} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img5) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img5) }} className='cpoint pt-2'>
                                                 <img src={img5} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img6) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img6) }} className='cpoint pt-2'>
                                                 <img src={img6} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img7) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img7) }} className='cpoint pt-2'>
                                                 <img src={img7} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img8) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img8) }} className='cpoint pt-2'>
                                                 <img src={img8} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img9) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img9) }} className='cpoint pt-2'>
                                                 <img src={img9} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img10) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img10) }} className='cpoint pt-2'>
                                                 <img src={img10} width='100%' />
                                             </Col>
-                                            <Col xs='3' onClick={() => { window.open(img11) }} className='cpoint'>
+                                            <Col xs='3' onClick={() => { window.open(img11) }} className='cpoint pt-2'>
                                                 <img src={img11} width='100%' />
                                             </Col>
                                         </Row>
