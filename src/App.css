@@ -55,5 +55,15 @@
   text-transform: uppercase;
 }
 /* END PRODUCTS PAGE  */
-
-
+.carousel-control-next-icon {
+  background-color: black;
+}
+.carousel-control-prev-icon {
+  background-color: black;
+}
+.darkBc {
+  background-color: rgba(24, 24, 24, 0.116);
+}
+.cpoint{
+  cursor:pointer;
+}
