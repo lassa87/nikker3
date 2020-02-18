@@ -67,3 +67,7 @@
 .cpoint{
   cursor:pointer;
 }
+/* centered content */
+.center-content {
+  align-content: center;
+}

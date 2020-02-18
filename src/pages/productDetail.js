@@ -11,7 +11,7 @@ export default class productDetail extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    const { name, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, about } = value.detailProduct;
+                    const { name, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, b1, b2, b3, b4, b5, b6, about } = value.detailProduct;
                     const items = [
                         {
                             src: img2,
@@ -104,6 +104,29 @@ export default class productDetail extends Component {
                                         </Row>
                                     </Col>
                                 </Row>
+                                <br />
+                                <Col className='align-self-center p-3' md={{ size: 10, offset: 2 }}>
+                                    <Row>
+                                        <Col xs='2'>
+                                            <img src={b1} width='100%' />
+                                        </Col>
+                                        <Col xs='2' >
+                                            <img src={b2} width='100%' />
+                                        </Col>
+                                        <Col xs='2' >
+                                            <img src={b3} width='100%' />
+                                        </Col>
+                                        <Col xs='2' >
+                                            <img src={b4} width='100%' />
+                                        </Col>
+                                        <Col xs='2' >
+                                            <img src={b5} width='100%' />
+                                        </Col>
+                                        <Col xs='2' >
+                                            <img src={b6} width='100%' />
+                                        </Col>
+                                    </Row>
+                                </Col>
                             </Container>
                         </div>
                     );
