@@ -105,8 +105,8 @@ export default class productDetail extends Component {
                                     </Col>
                                 </Row>
                                 <br />
-                                <Col className='align-self-center p-3' md={{ size: 10, offset: 2 }}>
-                                    <Row>
+                                <Col className='p-3' md={{ size: 10, offset: 2 }}>
+                                    <Row className='align-self-center'>
                                         <Col xs='2'>
                                             <img src={b1} width='100%' />
                                         </Col>
