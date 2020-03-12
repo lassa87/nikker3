@@ -10,23 +10,27 @@ export default class Product extends Component {
         const { id, name, img, about } = this.props.product;
         return (
             <ProductConsumer>
+
                 {value => (
                     <Col sm='12' md='6' lg='6' className='productContainer' onClick={() => value.handleDetail(id)}>
                         <Link to='/productDetail'>
-                            <div className='p-5 mt-5'>
+                            <div className='p-5 mt-5' style={{ backgroundColor: 'white' }}>
                                 <Row>
                                     <Col xs='6'>
                                         <img src={img} width='100%' alt='product' />
                                     </Col>
-                                    <Col xs='6'>
-                                        <h4 className='productTitle'>{name}</h4>
-                                        <p>Opis proizvoda: {about}</p>
+                                    <Col xs='6' >
+                                        <div >
+                                            <h4 className='productTitle'>{name}</h4>
+                                            <p>Opis proizvoda: {about}</p>
+                                        </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Link>
                     </Col >
                 )}
+
             </ProductConsumer>
         )
     }

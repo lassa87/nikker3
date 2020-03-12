@@ -30,6 +30,12 @@
     position: relative;
   }
 /* end HERO */
+.bg-image{
+  background-image: url("./resources-nikker/bg1.jpg");
+  background-size: 25%;
+  background-repeat: repeat;
+  position: relative;
+}
 /* ABOUT */
 .about-us {
   font-size: 1.4rem;

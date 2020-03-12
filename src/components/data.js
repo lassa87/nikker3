@@ -1,19 +1,7 @@
 /*  id, name, img, about, group  */
 
 export const storeProducts = [
-  {
-    id: 1,
-    name: "Serija VIP",
-    img: "./images/1.jpg",
-    img2: "./images/1.jpg",
-    b1: "./images/bedz/16.png",
-    b2: "./images/bedz/18.png",
-    b3: "./images/bedz/led.png",
-    b4: "./images/bedz/okov.png",
-    b5: "./images/bedz/gloss.png",
-    about: "Proizvod je izrađen od medijapana debljine 16mm i univera debljine 18mm, bojen poliuretanskim bojama.",
-    group: "Lorem "
-  },
+
   {
     id: 2,
     name: "SERIJA LINE",
@@ -23,32 +11,6 @@ export const storeProducts = [
     img4: "./images/23.jpg",
     img5: "./images/24.jpg",
     img6: "./images/25.jpg",
-    b1: "./images/bedz/16.png",
-    b2: "./images/bedz/18.png",
-    b3: "./images/bedz/led.png",
-    b4: "./images/bedz/okov.png",
-    b5: "./images/bedz/gloss.png",
-    about: "Proizvod je izrađen od medijapana debljine 16mm i univera debljine 18mm, bojen poliuretanskim bojama.",
-    group: "Lorem "
-  },
-  {
-    id: 3,
-    name: "Serija Lena",
-    img: "./images/3.jpg",
-    img2: "./images/3.jpg",
-    b1: "./images/bedz/16.png",
-    b2: "./images/bedz/18.png",
-    b3: "./images/bedz/led.png",
-    b4: "./images/bedz/okov.png",
-    b5: "./images/bedz/gloss.png",
-    about: "Proizvod je izrađen od medijapana debljine 16mm i univera debljine 18mm, bojen poliuretanskim bojama.",
-    group: "Lorem "
-  },
-  {
-    id: 4,
-    name: "Serija Leon",
-    img: "./images/4.jpg",
-    img2: "./images/4.jpg",
     b1: "./images/bedz/16.png",
     b2: "./images/bedz/18.png",
     b3: "./images/bedz/led.png",

@@ -4,8 +4,9 @@ import Logo from '../resources-nikker/logo-bez-pozadine.png'
 import { Link } from 'react-router-dom'
 const linkColor = {
     color: ' #221d5d',
-    fontFamily: 'Impact',
+    fontFamily: 'Arial',
     marginLeft: '1.5rem',
+    fontWeight: '700'
 }
 const Navigation = (props) => {
     return (

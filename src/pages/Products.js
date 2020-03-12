@@ -7,7 +7,7 @@ import Product from '../components/Product'
 export default class Products extends Component {
     render() {
         return (
-            <div>
+            <div className='bg-image'>
                 <Navigation />
                 <Container>
                     <Row>

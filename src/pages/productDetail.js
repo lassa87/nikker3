@@ -63,7 +63,7 @@ export default class productDetail extends Component {
                                         <Row>
                                             <h4>Opis proizvoda</h4><br />
                                             <p><strong>Korpus :</strong> {name}<br />
-                                                <strong>Vrata :</strong> bela visoki sjaj <br />
+                                                <strong>Front :</strong> bela visoki sjaj <br />
                                                 <strong>Materijal:</strong> {about}<br />
                                                 <strong>Prodaja po elementima .</strong><br />
                                                 <strong>U cenu ormarića sa ogledalom uključena je rasveta.</strong>
@@ -71,36 +71,7 @@ export default class productDetail extends Component {
 
                                         </Row>
                                         <Row>
-                                            <Col xs='3' onClick={() => { window.open(img2) }} className='cpoint pt-2'>
-                                                <img src={img2} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img3) }} className='cpoint pt-2'>
-                                                <img src={img3} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img4) }} className='cpoint pt-2'>
-                                                <img src={img4} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img5) }} className='cpoint pt-2'>
-                                                <img src={img5} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img6) }} className='cpoint pt-2'>
-                                                <img src={img6} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img7) }} className='cpoint pt-2'>
-                                                <img src={img7} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img8) }} className='cpoint pt-2'>
-                                                <img src={img8} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img9) }} className='cpoint pt-2'>
-                                                <img src={img9} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img10) }} className='cpoint pt-2'>
-                                                <img src={img10} width='100%' />
-                                            </Col>
-                                            <Col xs='3' onClick={() => { window.open(img11) }} className='cpoint pt-2'>
-                                                <img src={img11} width='100%' />
-                                            </Col>
+                                            {/* ovde su stajale slike */}
                                         </Row>
                                     </Col>
                                 </Row>
