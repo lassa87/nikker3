@@ -81,7 +81,26 @@ export const storeProducts = [
     b5: "./images/bedz/gloss.png",
     b6: "./images/bedz/light.png",
     about: "Proizvod je izrađen od medijapana debljine 16mm i univera debljine 18mm, bojen poliuretanskim bojama.",
-    group: "Lorem "
+    group: "Light",
+    vName: "VERTIKALA LIGHT SA KORPOM KONZOLNA",
+    vSifra: "35-880",
+    vDimenzije: "350x300x1520",
+    ogName: "OGLEDALO LIGHT",
+    ogSifra1: "35-875",
+    ogDimenzije1: "510x250x700",
+    ogSifra2: "35-876",
+    ogDimenzije2: "610x250x700",
+    ogSifra3: "35-877",
+    ogDimenzije3: "710x250x700",
+    ormName: "ORMARIC LIGHT KONZOLNI",
+    ormSifra1: "35-870",
+    ormDimenzije1: "510x460x500",
+    ormSifra2: "35-871",
+    ormDimenzije2: "610x460x500",
+    ormSifra3: "35-872",
+    ormDimenzije3: "710x460x500",
+
+
   },
   {
     id: 9,
