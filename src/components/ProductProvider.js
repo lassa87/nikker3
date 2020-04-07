@@ -8,7 +8,7 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component {
     state = {
         products: storeProducts,
-        detailProduct: detailProduct
+        detailProduct: detailProduct,
     };
     getItem = id => {
         const product = this.state.products.find(item => item.id === id);

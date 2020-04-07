@@ -1,5 +1,5 @@
-import React from 'react';
-import { Nav, NavItem, Row, Col } from 'reactstrap'
+import React, { useState } from 'react';
+import { Nav, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavItem, Row, Col } from 'reactstrap'
 import Logo from '../resources-nikker/logo-bez-pozadine.png'
 import { Link } from 'react-router-dom'
 const linkColor = {
@@ -9,6 +9,8 @@ const linkColor = {
     fontWeight: '700'
 }
 const Navigation = (props) => {
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const toggle = () => setDropdownOpen(!dropdownOpen);
     return (
         <div>
             <Row>
@@ -21,17 +23,33 @@ const Navigation = (props) => {
                     <Nav className="justify-content-center pt-3">
                         <Link to="/">
                             <NavItem>
-                                <span style={linkColor}>Početna</span>
+                                Početna
                             </NavItem>
                         </Link>
-                        <Link to="/Products">
-                            <NavItem>
-                                <span style={linkColor}>Proizvodi</span>
-                            </NavItem>
-                        </Link>
+                        <NavItem>
+                            <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
+                                <DropdownToggle nav caret>
+                                    Proizvodi
+                                    </DropdownToggle>
+                                <DropdownMenu>
+                                    <Link to="/Products">
+                                        <DropdownItem Header>Proizvodi</DropdownItem>
+                                    </Link>
+                                    <Link to="/Vertikale">
+                                        <DropdownItem>Vertikale</DropdownItem>
+                                    </Link>
+                                    <Link to="/Ormarici">
+                                        <DropdownItem>Donji delovi</DropdownItem>
+                                    </Link>
+                                    <Link to="/Ogledala">
+                                        <DropdownItem>Ogledala</DropdownItem>
+                                    </Link>
+                                </DropdownMenu>
+                            </Dropdown>
+                        </NavItem>
                         <Link to="/Contact">
                             <NavItem>
-                                <span style={linkColor}>Kontakt</span>
+                                Kontakt
                             </NavItem>
                         </Link>
                     </Nav>

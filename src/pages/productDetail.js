@@ -14,7 +14,7 @@ export default class productDetail extends Component {
             <ProductConsumer>
                 {value => {
                     const { name, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, b1, b2, b3, b4, b5, b6, about,
-                        vName, vSifra, vDimenzije, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3 } = value.detailProduct;
+                        vName, vSifra, vDimenzije, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
                     const items = [
                         {
                             src: img2,
@@ -30,27 +30,27 @@ export default class productDetail extends Component {
                             header: '',
                             key: '2'
                         },
-                        {
-                            src: img4,
-                            altText: 'Slide 3',
-                            caption: '',
-                            header: '',
-                            key: '3'
-                        },
-                        {
-                            src: img5,
-                            altText: 'Slide 4',
-                            caption: '',
-                            header: '',
-                            key: '4'
-                        },
-                        {
-                            src: img6,
-                            altText: 'Slide 5',
-                            caption: '',
-                            header: '',
-                            key: '5'
-                        },
+                        // {
+                        //     src: img4,
+                        //     altText: 'Slide 3',
+                        //     caption: '',
+                        //     header: '',
+                        //     key: '3'
+                        // },
+                        // {
+                        //     src: img5,
+                        //     altText: 'Slide 4',
+                        //     caption: '',
+                        //     header: '',
+                        //     key: '4'
+                        // },
+                        // {
+                        //     src: img6,
+                        //     altText: 'Slide 5',
+                        //     caption: '',
+                        //     header: '',
+                        //     key: '5'
+                        // },
                     ];
 
                     const Slider = () => <UncontrolledCarousel items={items} />;
@@ -77,8 +77,12 @@ export default class productDetail extends Component {
                                         <td>{ormSifra3}</td>
                                         <td>{ormDimenzije3}</td>
                                     </tr>
+                                    <tr>
+                                        <td>{ormSifra4}</td>
+                                        <td>{ormDimenzije4}</td>
+                                    </tr>
                                 </tbody>
-                                <thead>
+                                {/* <thead>
                                     <tr><th>{ogName}</th></tr>
                                     <tr>
                                         <th>Sifra</th>
@@ -110,8 +114,8 @@ export default class productDetail extends Component {
                                     <tr>
                                         <td>{vSifra}</td>
                                         <td>{vDimenzije}</td>
-                                    </tr>
-                                </tbody>
+                                    </tr> 
+                                </tbody> */}
                             </Table>
                         );
                     }
@@ -167,11 +171,11 @@ export default class productDetail extends Component {
                                     </Row>
                                 </Col>
                             </Container>
-                        </div>
+                        </div >
                     );
                 }}
 
-            </ProductConsumer>
+            </ProductConsumer >
 
         )
     }

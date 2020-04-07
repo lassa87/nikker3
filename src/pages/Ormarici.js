@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
 import Product from '../components/Product'
 
-export default class Products extends Component {
+export default class Ormarici extends Component {
     render() {
         return (
             <div className='bg-image'>
@@ -15,9 +15,9 @@ export default class Products extends Component {
                             {value => {
                                 return value.products.map(
                                     product => {
-
-                                        return <Product key={product.id} product={product} />;
-
+                                        if (product.group == 'ormarici') {
+                                            return <Product key={product.id} product={product} />;
+                                        }
                                     }
                                 )
                             }
