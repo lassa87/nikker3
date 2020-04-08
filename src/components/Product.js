@@ -12,19 +12,14 @@ export default class Product extends Component {
             <ProductConsumer>
 
                 {value => (
-                    <Col sm='12' md='6' lg='6' className='productContainer' onClick={() => value.handleDetail(id)}>
+                    <Col sm='6' md='3' lg='3' className='productContainer' onClick={() => value.handleDetail(id)}>
                         <Link to='/productDetail'>
                             <div className='p-5 mt-5' style={{ backgroundColor: 'white' }}>
                                 <Row>
-                                    <Col xs='6'>
-                                        <img src={img} width='100%' alt='product' />
-                                    </Col>
-                                    <Col xs='6' >
-                                        <div >
-                                            <h4 className='productTitle'>{name}</h4>
-                                            <p>Opis proizvoda: {about}</p>
-                                        </div>
-                                    </Col>
+                                    <img src={img} width='100%' alt='product' />
+                                </Row>
+                                <Row>
+                                    <h4 className='productTitle'>{name}</h4>
                                 </Row>
                             </div>
                         </Link>
