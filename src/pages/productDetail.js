@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container, Row, Col, Table } from 'reactstrap'
 import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
-import { UncontrolledCarousel } from 'reactstrap';
+import { UncontrolledCarousel, Button } from 'reactstrap';
 
 
 
@@ -13,8 +13,8 @@ export default class productDetail extends Component {
 
             <ProductConsumer>
                 {value => {
-                    const { name, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, b1, b2, b3, b4, b5, b6, about,
-                        vName, vSifra, vDimenzije, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
+                    const { name, img2, img3, b1, b2, b3, b4, b5, b6, about, ogName2, ogName3, ogName4, ormName2, ormName3, ormName4,
+                        vName, vSifra, tehnicki, vDimenzije, vName2, vSifra2, vDimenzije2, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ogSifra4, ogDimenzije4, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
                     const items = [
                         {
                             src: img2,
@@ -58,64 +58,85 @@ export default class productDetail extends Component {
                         return (
                             <Table striped>
                                 <thead>
-                                    <tr><th>{ormName}</th></tr>
                                     <tr>
+                                        <th>Naziv</th>
                                         <th>Sifra</th>
                                         <th>Dimenzije</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>{ormName}</td>
                                         <td>{ormSifra1}</td>
                                         <td>{ormDimenzije1}</td>
                                     </tr>
                                     <tr>
+                                        <td>{ormName2}</td>
                                         <td>{ormSifra2}</td>
                                         <td>{ormDimenzije2}</td>
                                     </tr>
                                     <tr>
+                                        <td>{ormName3}</td>
                                         <td>{ormSifra3}</td>
                                         <td>{ormDimenzije3}</td>
                                     </tr>
                                     <tr>
+                                        <td>{ormName4}</td>
                                         <td>{ormSifra4}</td>
                                         <td>{ormDimenzije4}</td>
                                     </tr>
                                 </tbody>
-                                {/* <thead>
-                                    <tr><th>{ogName}</th></tr>
+                                <thead>
                                     <tr>
+
+                                    </tr>
+                                    <tr>
+                                        <th>Naziv</th>
                                         <th>Sifra</th>
                                         <th>Dimenzije</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>{ogName}</td>
                                         <td>{ogSifra1}</td>
                                         <td>{ogDimenzije1}</td>
                                     </tr>
                                     <tr>
+                                        <td>{ogName2}</td>
                                         <td>{ogSifra2}</td>
                                         <td>{ogDimenzije2}</td>
                                     </tr>
                                     <tr>
+                                        <td>{ogName3}</td>
                                         <td>{ogSifra3}</td>
                                         <td>{ogDimenzije3}</td>
                                     </tr>
+                                    <tr>
+                                        <td>{ogName4}</td>
+                                        <td>{ogSifra4}</td>
+                                        <td>{ogDimenzije4}</td>
+                                    </tr>
                                 </tbody>
                                 <thead>
-                                    <tr><th>{vName}</th></tr>
                                     <tr>
+                                        <th>Naziv</th>
                                         <th>Sifra</th>
                                         <th>Dimenzije</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>{vName}</td>
                                         <td>{vSifra}</td>
                                         <td>{vDimenzije}</td>
-                                    </tr> 
-                                </tbody> */}
+                                    </tr>
+                                    <tr>
+                                        <td>{vName2}</td>
+                                        <td>{vSifra2}</td>
+                                        <td>{vDimenzije2}</td>
+                                    </tr>
+                                </tbody>
                             </Table>
                         );
                     }
@@ -137,11 +158,11 @@ export default class productDetail extends Component {
                                                 <strong>Prodaja po elementima .</strong><br />
                                                 <strong>U cenu ormarića sa ogledalom uključena je rasveta.</strong>
                                             </p>
-
                                         </Row>
                                         <Row>
                                             <Col >
                                                 {Example()}
+                                                <Button onClick={() => window.open(tehnicki)}>Tehnički crtež</Button>
                                             </Col>
 
                                         </Row>
