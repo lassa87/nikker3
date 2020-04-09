@@ -162,7 +162,7 @@ export default class productDetail extends Component {
                                         <Row>
                                             <Col >
                                                 {Example()}
-                                                <Button onClick={() => window.open(tehnicki)}>Tehnički crtež</Button>
+                                                <Button onClick={() => window.open(tehnicki)}>Tehničke  specifikacije</Button>
                                             </Col>
 
                                         </Row>
