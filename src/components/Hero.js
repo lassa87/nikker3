@@ -9,7 +9,6 @@ export default class Hero extends Component {
                 <div className="hero-text">
                     <h1>Dobrodošli u NIKKER</h1>
                     <p>Proizvodna kompanija, sa Vama od 2010.god.</p>
-                    {/* <button>Hire me</button> */}
                 </div>
             </div>
         )

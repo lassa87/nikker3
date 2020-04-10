@@ -1,3 +1,10 @@
+/* NAVIGATION */
+.nav-custom{
+  font-family: 'Kanit', sans-serif;
+  color:#221d5d;
+  font-size: 1.2rem;
+}
+
 /* HERO FOR HOMEPAGE */
 .hero {
 /* The hero image */
@@ -10,6 +17,7 @@
 }
 /* text middle of the image */
 .hero-text {
+  font-family: 'Kanit', sans-serif;
   text-align: center;
   position: absolute;
   top: 50%;

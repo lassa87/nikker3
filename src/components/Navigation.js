@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Nav, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavItem, Row, Col } from 'reactstrap'
+import { Nav, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavItem, Row, Col, NavLink } from 'reactstrap'
 import Logo from '../resources-nikker/logo-bez-pozadine.png'
 import { Link } from 'react-router-dom'
 const linkColor = {
@@ -23,33 +23,44 @@ const Navigation = (props) => {
                     <Nav className="justify-content-center pt-3">
                         <Link to="/">
                             <NavItem>
-                                Početna
+                                <NavLink>
+                                    <span className="nav-custom">
+                                        Početna
+                                    </span>
+
+                                </NavLink>
                             </NavItem>
                         </Link>
                         <NavItem>
                             <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
                                 <DropdownToggle nav caret>
-                                    Proizvodi
-                                    </DropdownToggle>
+                                    <span className="nav-custom">
+                                        Proizvodi
+                                    </span>
+                                </DropdownToggle>
                                 <DropdownMenu>
                                     <Link to="/Products">
-                                        <DropdownItem Header>Proizvodi</DropdownItem>
+                                        <DropdownItem Header className="nav-custom">Proizvodi</DropdownItem>
                                     </Link>
                                     <Link to="/Vertikale">
-                                        <DropdownItem>Vertikale</DropdownItem>
+                                        <DropdownItem className="nav-custom">Vertikale</DropdownItem>
                                     </Link>
                                     <Link to="/Ormarici">
-                                        <DropdownItem>Donji delovi</DropdownItem>
+                                        <DropdownItem className="nav-custom">Donji delovi</DropdownItem>
                                     </Link>
                                     <Link to="/Ogledala">
-                                        <DropdownItem>Ogledala</DropdownItem>
+                                        <DropdownItem className="nav-custom">Ogledala</DropdownItem>
                                     </Link>
                                 </DropdownMenu>
                             </Dropdown>
                         </NavItem>
                         <Link to="/Contact">
                             <NavItem>
-                                Kontakt
+                                <NavLink>
+                                    <span className="nav-custom">
+                                        Kontakt
+                                    </span>
+                                </NavLink>
                             </NavItem>
                         </Link>
                     </Nav>
