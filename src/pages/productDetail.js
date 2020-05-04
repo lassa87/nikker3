@@ -57,14 +57,14 @@ export default class productDetail extends Component {
                     const Example = (props) => {
                         return (
                             <Table striped>
-                                <thead>
+                                <thead className='ormName'>
                                     <tr>
                                         <th>Naziv</th>
                                         <th>Sifra</th>
                                         <th>Dimenzije</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody >
                                     <tr>
                                         <td>{ormName}</td>
                                         <td>{ormSifra1}</td>
@@ -86,7 +86,7 @@ export default class productDetail extends Component {
                                         <td>{ormDimenzije4}</td>
                                     </tr>
                                 </tbody>
-                                <thead>
+                                <thead className='ogName'>
                                     <tr>
 
                                     </tr>
@@ -118,7 +118,7 @@ export default class productDetail extends Component {
                                         <td>{ogDimenzije4}</td>
                                     </tr>
                                 </tbody>
-                                <thead>
+                                <thead className='vName'>
                                     <tr>
                                         <th>Naziv</th>
                                         <th>Sifra</th>

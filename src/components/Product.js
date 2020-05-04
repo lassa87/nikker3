@@ -12,7 +12,7 @@ export default class Product extends Component {
             <ProductConsumer>
 
                 {value => (
-                    <Col sm='6' md='3' lg='3' className='productContainer' onClick={() => value.handleDetail(id)}>
+                    <Col xs='6' md='3' lg='3' className='productContainer' onClick={() => value.handleDetail(id)}>
                         <Link to='/productDetail'>
                             <div className='p-5 mt-5' style={{ backgroundColor: 'white' }}>
                                 <Row>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Row, Col } from 'reactstrap'
 import Slider from './ProductSlider'
 import { Link } from 'react-router-dom'
+import poster from '../resources-nikker/poster-nikker.jpg'
 
 export default class About extends Component {
     render() {
@@ -19,6 +20,11 @@ export default class About extends Component {
                             Proizvodi su izrađeni od medijapana i univera, bojeni poliuretanskim bojama.
                                     </p>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm="12">
+                        <img src={poster} width='100%' />
                     </Col>
                 </Row>
                 <Row>
