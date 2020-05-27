@@ -8,9 +8,7 @@ import { UncontrolledCarousel, Button } from 'reactstrap';
 
 export default class productDetail extends Component {
     render() {
-
         return (
-
             <ProductConsumer>
                 {value => {
                     const { name, img2, img3, b1, b2, b3, b4, b5, b6, about, ogName2, ogName3, ogName4, ormName2, ormName3, ormName4,
@@ -55,6 +53,16 @@ export default class productDetail extends Component {
 
                     const Slider = () => <UncontrolledCarousel items={items} />;
                     const Example = (props) => {
+                        function EmptyOGname() {
+                            if (ogName === 0) {
+                                return { display: 'none' };
+                            }
+                        }
+                        function EmptyVname() {
+                            if (vName === 0) {
+                                return { display: 'none' };
+                            }
+                        }
                         return (
                             <Table striped>
                                 <thead className='ormName'>
@@ -86,57 +94,61 @@ export default class productDetail extends Component {
                                         <td>{ormDimenzije4}</td>
                                     </tr>
                                 </tbody>
-                                <thead className='ogName'>
-                                    <tr>
+                                <div style={EmptyOGname()}>
+                                    <thead className='ogName' >
+                                        <tr>
 
-                                    </tr>
-                                    <tr>
-                                        <th>Naziv</th>
-                                        <th>Sifra</th>
-                                        <th>Dimenzije</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>{ogName}</td>
-                                        <td>{ogSifra1}</td>
-                                        <td>{ogDimenzije1}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ogName2}</td>
-                                        <td>{ogSifra2}</td>
-                                        <td>{ogDimenzije2}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ogName3}</td>
-                                        <td>{ogSifra3}</td>
-                                        <td>{ogDimenzije3}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ogName4}</td>
-                                        <td>{ogSifra4}</td>
-                                        <td>{ogDimenzije4}</td>
-                                    </tr>
-                                </tbody>
-                                <thead className='vName'>
-                                    <tr>
-                                        <th>Naziv</th>
-                                        <th>Sifra</th>
-                                        <th>Dimenzije</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>{vName}</td>
-                                        <td>{vSifra}</td>
-                                        <td>{vDimenzije}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{vName2}</td>
-                                        <td>{vSifra2}</td>
-                                        <td>{vDimenzije2}</td>
-                                    </tr>
-                                </tbody>
+                                        </tr>
+                                        <tr>
+                                            <th>Naziv</th>
+                                            <th>Sifra</th>
+                                            <th>Dimenzije</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{ogName}</td>
+                                            <td>{ogSifra1}</td>
+                                            <td>{ogDimenzije1}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ogName2}</td>
+                                            <td>{ogSifra2}</td>
+                                            <td>{ogDimenzije2}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ogName3}</td>
+                                            <td>{ogSifra3}</td>
+                                            <td>{ogDimenzije3}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ogName4}</td>
+                                            <td>{ogSifra4}</td>
+                                            <td>{ogDimenzije4}</td>
+                                        </tr>
+                                    </tbody>
+                                </div>
+                                <div style={EmptyVname()}>
+                                    <thead className='vName'>
+                                        <tr>
+                                            <th>Naziv</th>
+                                            <th>Sifra</th>
+                                            <th>Dimenzije</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{vName}</td>
+                                            <td>{vSifra}</td>
+                                            <td>{vDimenzije}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{vName2}</td>
+                                            <td>{vSifra2}</td>
+                                            <td>{vDimenzije2}</td>
+                                        </tr>
+                                    </tbody>
+                                </div>
                             </Table>
                         );
                     }

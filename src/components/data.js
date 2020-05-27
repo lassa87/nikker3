@@ -178,6 +178,8 @@ export const storeProducts = [
     ormName2: "ORMARIC LUX + LAVABO TULIP",
     ormSifra2: "35-152",
     ormDimenzije2: "650x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 28,
@@ -199,6 +201,8 @@ export const storeProducts = [
     ormDimenzije1: "800x460x850",
     // ormSifra2: "35-152",
     // ormDimenzije2: "650x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 29,
@@ -221,6 +225,8 @@ export const storeProducts = [
     ormName2: "ORMARIC + LAVABO TULIP",
     ormSifra2: "35-403",
     ormDimenzije2: "650x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 30,
@@ -243,6 +249,8 @@ export const storeProducts = [
     ormName2: "ORMARIC + LAVABO TULIP 1000",
     ormSifra2: "35-405",
     ormDimenzije2: "1000x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 31,
@@ -265,6 +273,8 @@ export const storeProducts = [
     ormName2: "ORMARIC FIOKA + LAVABO TULIP",
     ormSifra2: "35-407",
     ormDimenzije2: "650x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 32,
@@ -287,6 +297,8 @@ export const storeProducts = [
     ormName2: "ORMARIC FIOKA + LAVABO TULIP 1000",
     ormSifra2: "35-409",
     ormDimenzije2: "1000x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 33,
@@ -308,6 +320,8 @@ export const storeProducts = [
     ormDimenzije1: "1200x460x850",
     // ormSifra2: "35-409",
     // ormDimenzije2: "1000x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 22,
@@ -327,6 +341,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI 500 ART-A1",
     ormSifra1: "35-800-A1",
     ormDimenzije1: "500x500x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 23,
@@ -346,6 +362,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI 500 ART-A2",
     ormSifra1: "35-800-A",
     ormDimenzije1: "500x500x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 24,
@@ -365,6 +383,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI 500 ART-A3",
     ormSifra1: "35-800-A3",
     ormDimenzije1: "500x500x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 25,
@@ -384,6 +404,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI 500 ART-A4",
     ormSifra1: "35-800-A4",
     ormDimenzije1: "500x500x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 26,
@@ -403,6 +425,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI 500 ART-A5",
     ormSifra1: "35-800-A5",
     ormDimenzije1: "500x500x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 6,
@@ -431,6 +455,8 @@ export const storeProducts = [
     ormName4: "ORMARIC KONZOLNI LUX + LAVABO SLIM",
     ormSifra4: "35-672",
     ormDimenzije4: "710x460x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 7,
@@ -456,6 +482,8 @@ export const storeProducts = [
     ormName3: "ORMARIC LUX + LAVABO SLIM",
     ormSifra3: "35-752",
     ormDimenzije3: "710x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 8,
@@ -475,6 +503,8 @@ export const storeProducts = [
     ormName: "ORMARIC LUX + LAVABO SLIM",
     ormSifra1: "35-753",
     ormDimenzije1: "810x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 9,
@@ -499,6 +529,8 @@ export const storeProducts = [
     ormDimenzije2: "1010x460x850",
     // ormSifra3: "35-752",
     // ormDimenzije3: "710x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 10,
@@ -527,6 +559,8 @@ export const storeProducts = [
     ormName4: "ORMARIC SLIM + LAVABO SLIM",
     ormSifra4: "35-203",
     ormDimenzije4: "710x460x850",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 20,
@@ -550,6 +584,8 @@ export const storeProducts = [
     // ormDimenzije2: "600x400x500",
     // ormSifra3: "35-352",
     // ormDimenzije3: "700x400x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 21,
@@ -569,6 +605,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI KARAMEL + LAVABO ALVIT",
     ormSifra1: "35-195",
     ormDimenzije1: "450x250x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 34,
@@ -588,6 +626,8 @@ export const storeProducts = [
     ormName: "ORMARIC KONZOLNI LIGHT + LAVABO ALVIT",
     ormSifra1: "35-196",
     ormDimenzije1: "450x250x500",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 5,
@@ -612,6 +652,8 @@ export const storeProducts = [
     ormName3: "ORMARIC KONZOLNI FIT + LAVABO SLIM",
     ormSifra3: "35-352",
     ormDimenzije3: "700x400x500",
+    ogName: 0,
+    vName: 0,
   },
   // ****************** END ORMARICI *************************
   // ****************** OGLEDALA *****************************
@@ -633,6 +675,8 @@ export const storeProducts = [
     ormName: "OGLEDALO KARAMEL",
     ormSifra1: "35-190",
     ormDimenzije1: "450x120x600",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 101,
@@ -652,6 +696,8 @@ export const storeProducts = [
     ormName: "OGLEDALO LIGHT",
     ormSifra1: "35-191",
     ormDimenzije1: "450x120x600",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 102,
@@ -673,6 +719,8 @@ export const storeProducts = [
     ormName2: "OGLEDALO SLIM - LUX",
     ormSifra2: "35-701",
     ormDimenzije2: "610x280x750",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 103,
@@ -694,6 +742,8 @@ export const storeProducts = [
     ormName2: "OGLEDALO SLIM - LUX",
     ormSifra2: "35-703",
     ormDimenzije2: "810x280x750",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 104,
@@ -718,6 +768,8 @@ export const storeProducts = [
     ormName3: "OGLEDALO TEA 1010",
     ormSifra3: "35-655",
     ormDimenzije3: "1010x280x750",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 105,
@@ -739,6 +791,8 @@ export const storeProducts = [
     ormName2: "OGLEDALO SLIM",
     ormSifra2: "35-232",
     ormDimenzije2: "610x280x750",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 106,
@@ -763,6 +817,8 @@ export const storeProducts = [
     ormName3: "OGLEDALO TEA",
     ormSifra3: "35-652",
     ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 107,
@@ -785,6 +841,8 @@ export const storeProducts = [
     // ormDimenzije2: "610x250x710",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 108,
@@ -808,6 +866,8 @@ export const storeProducts = [
     ormDimenzije2: "800x250x710",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 109,
@@ -831,6 +891,8 @@ export const storeProducts = [
     ormDimenzije2: "650x180x610",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 110,
@@ -854,6 +916,8 @@ export const storeProducts = [
     ormDimenzije2: "1000x180x640",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 111,
@@ -877,6 +941,8 @@ export const storeProducts = [
     ormDimenzije2: "650x180x1000",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 112,
@@ -900,6 +966,8 @@ export const storeProducts = [
     ormDimenzije2: "1000x180x1000",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 113,
@@ -922,6 +990,8 @@ export const storeProducts = [
     // ormDimenzije2: "1000x180x1000",
     // ormSifra3: "35-652",
     // ormDimenzije3: "710x250x710",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 114,
@@ -940,6 +1010,8 @@ export const storeProducts = [
     ormName: "OGLEDALO X-02",
     ormSifra1: "35-104",
     ormDimenzije1: "460x230x640",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 115,
@@ -958,6 +1030,8 @@ export const storeProducts = [
     ormName: "OGLEDALO X-03",
     ormSifra1: "35-103",
     ormDimenzije1: "610x230x640",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 116,
@@ -976,6 +1050,8 @@ export const storeProducts = [
     ormName: "OGLEDALO EKO-03",
     ormSifra1: "35-105",
     ormDimenzije1: "610x130x640",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 117,
@@ -997,6 +1073,8 @@ export const storeProducts = [
     ormName2: "OGLEDALO VIP",
     ormSifra2: "35-901",
     ormDimenzije2: "610x170x800",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 118,
@@ -1018,6 +1096,8 @@ export const storeProducts = [
     ormName2: "OGLEDALO SLIM LINE",
     ormSifra2: "35-894",
     ormDimenzije2: "710x180x1000",
+    ogName: 0,
+    vName: 0,
   },
 
   {
@@ -1043,6 +1123,8 @@ export const storeProducts = [
     ormName3: "OGLEDALO KARAMEL",
     ormSifra3: "35-856",
     ormDimenzije3: "710x130x700",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 121,
@@ -1061,6 +1143,8 @@ export const storeProducts = [
     ormName: "OGLEDALO SONOMA",
     ormSifra1: "35-855",
     ormDimenzije1: "450x120x600",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 119,
@@ -1085,6 +1169,8 @@ export const storeProducts = [
     ormName3: "OGLEDALO LIGHT",
     ormSifra3: "35-877",
     ormDimenzije3: "710x130x700",
+    ogName: 0,
+    vName: 0,
   },
   // ****************** END OGLEDALA *************************
   // ****************** VERTIKALE ****************************
@@ -1105,6 +1191,8 @@ export const storeProducts = [
     ormName: "VERTIKALA MINI BEZ KORPE",
     ormSifra1: "35-300",
     ormDimenzije1: "350x310x900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 201,
@@ -1123,6 +1211,8 @@ export const storeProducts = [
     ormName: "VERTIKALA MINI SA KORPOM",
     ormSifra1: "35-301",
     ormDimenzije1: "350x310x900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 202,
@@ -1141,6 +1231,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 350 SA KORPOM",
     ormSifra: "35-306",
     ormDimenzije: "350x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 203,
@@ -1159,6 +1251,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 350 BEZ KORPE",
     ormSifra: "35-305",
     ormDimenzije: "350x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 212,
@@ -1177,6 +1271,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 500 BEZ KORPE",
     ormSifra: "35-308",
     ormDimenzije: "500x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 213,
@@ -1195,6 +1291,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 500 SA KORPOM",
     ormSifra: "35-307",
     ormDimenzije: "500x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 204,
@@ -1213,6 +1311,8 @@ export const storeProducts = [
     ormName: "VERTIKALA LUX 500 BEZ KORPE",
     ormSifra: "35-310",
     ormDimenzije: "500x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 205,
@@ -1231,6 +1331,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 500 LUX SA KORPOM",
     ormSifra: "35-309",
     ormDimenzije: "500x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 206,
@@ -1249,6 +1351,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 350 LUX BEZ KORPE",
     ormSifra: "35-312",
     ormDimenzije: "350x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 207,
@@ -1267,6 +1371,8 @@ export const storeProducts = [
     ormName: "VERTIKALA 350 LUX SA KORPOM",
     ormSifra: "35-313",
     ormDimenzije: "350x300x1900",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 208,
@@ -1285,6 +1391,8 @@ export const storeProducts = [
     ormName: "VERTIKALA SONOMA SA KORPOM KONZOLNA",
     ormSifra: "35-388",
     ormDimenzije: "350x300x1400",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 209,
@@ -1303,6 +1411,8 @@ export const storeProducts = [
     ormName: "VERTIKALA KARAMEL SA KORPOM KONZOLNA",
     ormSifra: "35-860",
     ormDimenzije: "350x300x1520",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 210,
@@ -1321,6 +1431,8 @@ export const storeProducts = [
     ormName: "VERTIKALA LIGHT SA KORPOM KONZOLNA",
     ormSifra: "35-880",
     ormDimenzije: "350x300x1520",
+    ogName: 0,
+    vName: 0,
   },
   {
     id: 211,
@@ -1339,6 +1451,8 @@ export const storeProducts = [
     ormName: "VERTIKALA LINE SA KORPOM",
     ormSifra: "35-896",
     ormDimenzije: "350x300x900",
+    ogName: 0,
+    vName: 0,
   },
   // ****************** END VERTIKALE *************************
 ]

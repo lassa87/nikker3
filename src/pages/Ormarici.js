@@ -15,7 +15,7 @@ export default class Ormarici extends Component {
                             {value => {
                                 return value.products.map(
                                     product => {
-                                        if (product.group == 'ormarici') {
+                                        if (product.group === 'ormarici') {
                                             return <Product key={product.id} product={product} />;
                                         }
                                     }

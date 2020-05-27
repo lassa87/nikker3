@@ -15,7 +15,7 @@ export default class Vertikale extends Component {
                             {value => {
                                 return value.products.map(
                                     product => {
-                                        if (product.group == 'vertikale') {
+                                        if (product.group === 'vertikale') {
                                             return <Product key={product.id} product={product} />;
                                         }
                                     }

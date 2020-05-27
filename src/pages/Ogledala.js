@@ -15,7 +15,7 @@ export default class Ogledala extends Component {
                             {value => {
                                 return value.products.map(
                                     product => {
-                                        if (product.group == 'ogledala') {
+                                        if (product.group === 'ogledala') {
                                             return <Product key={product.id} product={product} />;
                                         }
                                     }
