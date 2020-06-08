@@ -28,27 +28,7 @@ export default class productDetail extends Component {
                             header: '',
                             key: '2'
                         },
-                        // {
-                        //     src: img4,
-                        //     altText: 'Slide 3',
-                        //     caption: '',
-                        //     header: '',
-                        //     key: '3'
-                        // },
-                        // {
-                        //     src: img5,
-                        //     altText: 'Slide 4',
-                        //     caption: '',
-                        //     header: '',
-                        //     key: '4'
-                        // },
-                        // {
-                        //     src: img6,
-                        //     altText: 'Slide 5',
-                        //     caption: '',
-                        //     header: '',
-                        //     key: '5'
-                        // },
+
                     ];
 
                     const Slider = () => <UncontrolledCarousel items={items} />;
@@ -64,11 +44,11 @@ export default class productDetail extends Component {
                             }
                         }
                         return (
-                            <Table striped>
+                            <Table striped className='tableDetail'>
                                 <thead className='ormName'>
                                     <tr>
-                                        <th>Naziv</th>
-                                        <th>Sifra</th>
+                                        <th>Naziv proizvoda</th>
+                                        <th>Sifra proizvoda</th>
                                         <th>Dimenzije</th>
                                     </tr>
                                 </thead>
@@ -96,12 +76,10 @@ export default class productDetail extends Component {
                                 </tbody>
                                 <div style={EmptyOGname()}>
                                     <thead className='ogName' >
-                                        <tr>
 
-                                        </tr>
                                         <tr>
-                                            <th>Naziv</th>
-                                            <th>Sifra</th>
+                                            <th>Naziv proizvoda</th>
+                                            <th>Sifra proizvoda</th>
                                             <th>Dimenzije</th>
                                         </tr>
                                     </thead>
@@ -131,8 +109,8 @@ export default class productDetail extends Component {
                                 <div style={EmptyVname()}>
                                     <thead className='vName'>
                                         <tr>
-                                            <th>Naziv</th>
-                                            <th>Sifra</th>
+                                            <th>Naziv proizvoda</th>
+                                            <th>Sifra proizvoda</th>
                                             <th>Dimenzije</th>
                                         </tr>
                                     </thead>
@@ -168,7 +146,6 @@ export default class productDetail extends Component {
                                                 <strong>Front :</strong> bela visoki sjaj <br />
                                                 <strong>Materijal:</strong> {about}<br />
                                                 <strong>Prodaja po elementima .</strong><br />
-                                                <strong>U cenu ormarića sa ogledalom uključena je rasveta.</strong>
                                             </p>
                                         </Row>
                                         <Row>

@@ -1,18 +1,10 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import S1 from '../resources-nikker/1s.jpg';
 import S2 from '../resources-nikker/2s.jpg';
 import S3 from '../resources-nikker/3s.jpg';
 import S4 from '../resources-nikker/4s.jpg';
 
 const items = [
-    {
-        src: S1,
-        altText: 'Slide 1',
-        caption: '',
-        header: '',
-        key: '1'
-    },
     {
         src: S2,
         altText: 'Slide 2',

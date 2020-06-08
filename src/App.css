@@ -71,12 +71,20 @@
   font-size: 0.8rem;
 }
 /* END PRODUCTS PAGE  */
+/* DETAIL PRODUCT PAGE */
+.tableDetail {
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 500;
+}
+/*END DETAIL PRODUCT PAGE */
 .carousel-control-next-icon {
   background-color: black;
 }
 .carousel-control-prev-icon {
   background-color: black;
 }
+
 .darkBc {
   background-color: rgba(24, 24, 24, 0.116);
 }
