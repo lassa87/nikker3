@@ -44,36 +44,40 @@ export default class productDetail extends Component {
                             }
                         }
                         return (
-                            <Table striped className='tableDetail'>
-                                <thead className='ormName'>
-                                    <tr>
-                                        <th>Naziv proizvoda</th>
-                                        <th>Sifra proizvoda</th>
-                                        <th>Dimenzije</th>
-                                    </tr>
-                                </thead>
-                                <tbody >
-                                    <tr>
-                                        <td>{ormName}</td>
-                                        <td>{ormSifra1}</td>
-                                        <td>{ormDimenzije1}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ormName2}</td>
-                                        <td>{ormSifra2}</td>
-                                        <td>{ormDimenzije2}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ormName3}</td>
-                                        <td>{ormSifra3}</td>
-                                        <td>{ormDimenzije3}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{ormName4}</td>
-                                        <td>{ormSifra4}</td>
-                                        <td>{ormDimenzije4}</td>
-                                    </tr>
-                                </tbody>
+                            <Table responsive striped className='tableDetail'>
+                                <div>
+
+                                    <thead className='ormName' >
+
+                                        <tr>
+                                            <th>Naziv proizvoda</th>
+                                            <th>Sifra proizvoda</th>
+                                            <th>Dimenzije</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{ormName}</td>
+                                            <td>{ormSifra1}</td>
+                                            <td>{ormDimenzije1}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ormName2}</td>
+                                            <td>{ormSifra2}</td>
+                                            <td>{ormDimenzije2}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ormName3}</td>
+                                            <td>{ormSifra3}</td>
+                                            <td>{ormDimenzije3}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{ormName4}</td>
+                                            <td>{ormSifra4}</td>
+                                            <td>{ormDimenzije4}</td>
+                                        </tr>
+                                    </tbody>
+                                </div>
                                 <div style={EmptyOGname()}>
                                     <thead className='ogName' >
 
