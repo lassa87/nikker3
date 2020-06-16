@@ -84,7 +84,10 @@
 .carousel-control-prev-icon {
   background-color: black;
 }
-
+.slick-dots li{
+  width:100px;
+  height:100px;
+}
 .darkBc {
   background-color: rgba(24, 24, 24, 0.116);
 }
@@ -95,4 +98,10 @@
 .center-content {
   align-content: center;
   text-align: center;
+}
+
+/* detail product custom slider */
+.sliderContainer{
+  width:50%;
+  padding:50px;
 }
