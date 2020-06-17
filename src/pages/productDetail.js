@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Container, Row, Col, Table } from 'reactstrap'
 import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
-import { UncontrolledCarousel, Button } from 'reactstrap';
+import { Button } from 'reactstrap';
+import Slider from "react-slick";
 
 
 
@@ -13,25 +14,27 @@ export default class productDetail extends Component {
                 {value => {
                     const { name, img2, img3, b1, b2, b3, b4, b5, b6, about, ogName2, ogName3, ogName4, ormName2, ormName3, ormName4,
                         vName, vSifra, tehnicki, vDimenzije, vName2, vSifra2, vDimenzije2, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ogSifra4, ogDimenzije4, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
-                    const items = [
-                        {
-                            src: img2,
-                            altText: 'Slide 1',
-                            caption: '',
-                            header: '',
-                            key: '1'
+                    // product images slider
+                    const tumbStyle = {
+                        width: '100%',
+                    }
+                    const settings = {
+                        customPaging: function (i) {
+                            return (
+                                <a>
+                                    <img src={`${img2}${i + 1}.jpg`} style={tumbStyle} />
+                                </a>
+                            );
                         },
-                        {
-                            src: img3,
-                            altText: 'Slide 2',
-                            caption: '',
-                            header: '',
-                            key: '2'
-                        },
-
-                    ];
-
-                    const Slider = () => <UncontrolledCarousel items={items} />;
+                        dots: true,
+                        dotsClass: "slick-dots slick-thumb",
+                        infinite: true,
+                        speed: 500,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    };
+                    // end slider funct
+                    // tabela
                     const Example = (props) => {
                         function EmptyOGname() {
                             if (ogName === 0) {
@@ -141,7 +144,17 @@ export default class productDetail extends Component {
                             <Container>
                                 <Row>
                                     <Col md='6'>
-                                        {Slider()}
+                                        <Slider {...settings}>
+                                            <div>
+                                                <img src={img2 + "1.jpg"} width='100%' />
+                                            </div>
+                                            <div>
+                                                <img src={img2 + "2.jpg"} width='100%' />
+                                            </div>
+                                            <div>
+                                                <img src={img2 + "3.jpg"} width='100%' />
+                                            </div>
+                                        </Slider>
                                     </Col>
                                     <Col md='6' className='darkBc p-5'>
                                         <Row>
@@ -155,7 +168,6 @@ export default class productDetail extends Component {
                                         <Row>
                                             <Col >
                                                 {Example()}
-                                                <Button onClick={() => window.open(tehnicki)}>Tehničke  specifikacije</Button>
                                             </Col>
 
                                         </Row>
