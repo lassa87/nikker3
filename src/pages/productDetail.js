@@ -12,8 +12,7 @@ export default class productDetail extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    const { name, img2, img3, b1, b2, b3, b4, b5, b6, about, ogName2, ogName3, ogName4, ormName2, ormName3, ormName4,
-                        vName, vSifra, tehnicki, vDimenzije, vName2, vSifra2, vDimenzije2, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ogSifra4, ogDimenzije4, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
+                    const { name, img2, b1, b2, b3, b4, b5, b6, about, ogName2, ogName3, ogName4, ormName2, ormName3, ormName4, vName, vSifra, vDimenzije, vName2, vSifra2, vDimenzije2, ogName, ogSifra1, ogDimenzije1, ogSifra2, ogDimenzije2, ogSifra3, ogDimenzije3, ogSifra4, ogDimenzije4, ormName, ormSifra1, ormDimenzije1, ormSifra2, ormDimenzije2, ormSifra3, ormDimenzije3, ormSifra4, ormDimenzije4 } = value.detailProduct;
                     // product images slider
                     const tumbStyle = {
                         width: '100%',
