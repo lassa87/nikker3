@@ -5,7 +5,6 @@ import Contact from './pages/Contact'
 import Ormarici from './pages/Ormarici'
 import Vertikale from './pages/Vertikale'
 import Ogledala from './pages/Ogledala'
-import Proba from './pages/proba'
 import productDetail from './pages/productDetail'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -22,7 +21,6 @@ function App() {
             <Route path="/Ormarici" component={Ormarici} />
             <Route path="/Vertikale" component={Vertikale} />
             <Route path="/Ogledala" component={Ogledala} />
-            <Route path="/Proba" component={Proba} />
             <Route path="/Contact" component={Contact} />
             <Route path="/productDetail" component={productDetail} />
           </Switch>

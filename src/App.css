@@ -40,10 +40,8 @@
 
 /* end HERO */
 .bg-image{
-  background-image: url("./resources-nikker/bg1.jpg");
-  background-size: 25%;
-  background-repeat: repeat;
-  position: relative;
+  background-color:#5d589b;
+
 }
 /* ABOUT */
 .about-us {

@@ -7,25 +7,27 @@ import Product from '../components/Product'
 export default class Vertikale extends Component {
     render() {
         return (
-            <div className='bg-image'>
+            <div >
                 <Navigation />
-                <Container>
-                    <Row>
-                        <ProductConsumer>
-                            {value => {
-                                return value.products.map(
-                                    product => {
-                                        if (product.group === 'vertikale') {
-                                            return <Product key={product.id} product={product} />;
+                <div className='bg-image'>
+                    <Container>
+                        <Row>
+                            <ProductConsumer>
+                                {value => {
+                                    return value.products.map(
+                                        product => {
+                                            if (product.group === 'vertikale') {
+                                                return <Product key={product.id} product={product} />;
+                                            }
                                         }
-                                    }
-                                )
-                            }
+                                    )
+                                }
 
-                            }
-                        </ProductConsumer>
-                    </Row>
-                </Container>
+                                }
+                            </ProductConsumer>
+                        </Row>
+                    </Container>
+                </div>
             </div>
         )
     }
