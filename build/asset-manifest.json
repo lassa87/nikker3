@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5ef776e.chunk.css",
+    "main.js": "/static/js/main.509a6426.chunk.js",
+    "main.js.map": "/static/js/main.509a6426.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb29b2d3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb29b2d3.js.map",
+    "static/js/2.dc8c9efd.chunk.js": "/static/js/2.dc8c9efd.chunk.js",
+    "static/js/2.dc8c9efd.chunk.js.map": "/static/js/2.dc8c9efd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad0dceb054967b5e35020617322bb51d.js": "/precache-manifest.ad0dceb054967b5e35020617322bb51d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b5ef776e.chunk.css.map": "/static/css/main.b5ef776e.chunk.css.map",
+    "static/js/2.dc8c9efd.chunk.js.LICENSE.txt": "/static/js/2.dc8c9efd.chunk.js.LICENSE.txt",
+    "static/media/2s.jpg": "/static/media/2s.4d61b8f6.jpg",
+    "static/media/3s.jpg": "/static/media/3s.26b71940.jpg",
+    "static/media/4s.jpg": "/static/media/4s.40612018.jpg",
+    "static/media/App.css": "/static/media/hero.dfdd9f98.jpg",
+    "static/media/poster-nikker.jpg": "/static/media/poster-nikker.9c58f2ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb29b2d3.js",
+    "static/js/2.dc8c9efd.chunk.js",
+    "static/css/main.b5ef776e.chunk.css",
+    "static/js/main.509a6426.chunk.js"
+  ]
+}

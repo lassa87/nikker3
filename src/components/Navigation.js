@@ -63,6 +63,15 @@ const Navigation = (props) => {
                                 </NavLink>
                             </NavItem>
                         </Link>
+                        <Link to="/Onama">
+                            <NavItem>
+                                <NavLink>
+                                    <span className="nav-custom">
+                                        O nama
+                                    </span>
+                                </NavLink>
+                            </NavItem>
+                        </Link>
                     </Nav>
                 </Col>
             </Row>

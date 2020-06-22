@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './pages/Home'
 import Products from './pages/Products'
 import Contact from './pages/Contact'
+import Onama from './pages/Onama'
 import Ormarici from './pages/Ormarici'
 import Vertikale from './pages/Vertikale'
 import Ogledala from './pages/Ogledala'
@@ -22,6 +23,7 @@ function App() {
             <Route path="/Vertikale" component={Vertikale} />
             <Route path="/Ogledala" component={Ogledala} />
             <Route path="/Contact" component={Contact} />
+            <Route path="/Onama" component={Onama} />
             <Route path="/productDetail" component={productDetail} />
           </Switch>
         </div>

@@ -37,10 +37,18 @@
     background-size: cover;
     position: relative;
   }
-
+  .hero-oNama{
+    background-image: url("./resources-nikker/444.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 /* end HERO */
 .bg-image{
-  background-color:#5d589b;
+  background-image: url("./resources-nikker/222.jpg");
+  background-position: center;
 
 }
 /* ABOUT */

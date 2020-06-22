@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Container, Row, Col, Table } from 'reactstrap'
 import Navigation from '../components/Navigation'
 import { ProductConsumer } from '../components/ProductProvider'
-import { Button } from 'reactstrap';
 import Slider from "react-slick";
 
 
@@ -158,8 +157,9 @@ export default class productDetail extends Component {
                                     <Col md='6' className='darkBc p-5'>
                                         <Row>
                                             <h4>Opis proizvoda</h4><br />
-                                            <p><strong>Korpus :</strong> {name}<br />
-                                                <strong>Front :</strong> bela visoki sjaj <br />
+                                            <p><strong>Naziv :</strong> {name} <br />
+                                                <strong>Korpus :</strong> IVERICA <br />
+                                                <strong>Front :</strong> MDF bela visoki sjaj <br />
                                                 <strong>Materijal:</strong> {about}<br />
                                                 <strong>Prodaja po elementima .</strong><br />
                                             </p>
